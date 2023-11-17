@@ -1,0 +1,10 @@
+{"name": "cars",
+ "columns": [
+        {"name": "id", "type": "serial"},
+        {"name": "brand", "type": "varchar(20)", "not_null": 1, "unique": 0},
+        {"name": "price", "type": "numeric", "not_null": 1, "unique": 1},
+        {"name": "fuel_type", "type": "varchar(12)", "not_null": 0, "unique": 0},
+        {"name": "mileage", "type": "numeric", "not_null": 0, "unique": 0},
+        {"name": "is_new", "type": "boolean", "not_null": 1, "unique": 0},
+        {"name": "prod_date", "type": "date", "not_null": 0, "unique": 0}]
+}
